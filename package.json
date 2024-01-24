@@ -10,8 +10,17 @@
     "type": "git",
     "url": "https://github.com/OsvaldoZakowicz/ip-info"
   },
-  "keywords": ["ip", "informacion", "ipv4", "ipv6", "geolocalizacion"],
+  "keywords": [
+    "ip",
+    "informacion",
+    "ipv4",
+    "ipv6",
+    "geolocalizacion"
+  ],
   "author": "OsvaldoZakowicz",
   "license": "MIT",
-  "homepage": "https://github.com/OsvaldoZakowicz/ip-info/blob/main/README.md"
+  "homepage": "https://github.com/OsvaldoZakowicz/ip-info/blob/main/README.md",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
 }
