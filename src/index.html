@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" data-theme="light">
 
 <head>
 	<meta charset="UTF-8">
@@ -12,7 +12,52 @@
 </head>
 
 <body>
-	
+	<main class="container">
+		<section>
+			<nav>
+				<ul>
+					<li><strong>IPInfo 🌐</strong></li>
+				</ul>
+				<ul>
+					<li><span id="theme-link" data-tooltip="Cambiar tema" data-placement="left"
+							style="font-size: 2rem; color: rgb(252, 163, 17); cursor: pointer;">☀</span></li>
+				</ul>
+			</nav>
+		</section>
+		<section>
+			<h1>IPInfo - Información de geolocalización de una IP.</h1>
+			<p>Introduce una IP, versión 4 o versión 6, y obtén información acerca de ella.</p>
+		</section>
+		<section>
+			<form id="search-form">
+				<label>Buscar IP:
+					<input required type="text" id="search-input" placeholder="ingrese una direccion IP aqui">
+					<small>
+						<span>Ejemplo de IPV4: 192.44.12.11</span><br>
+						<span>Ejemplo de IPV6: 2031:0db8:85a3:0000:0000:8a2e:0370:7334</span>
+					</small>
+				</label>
+				<button type="submit" id="search-button">Busca informacion de esta IP</button>
+			</form>
+		</section>
+		<section>
+			<h5>Resultado de busqueda:</h5>
+			<pre id="search-results" style="padding: 1rem;">Sin resultados, ¡Busca algo!</pre>
+		</section>
+	</main>
+	<footer class="container">
+		<p>
+			<strong>Hecho con 💙 por <a href="#" target="_blank" rel="noopener" rel="noreferrer">Osval_</a>.</strong>
+			<small>Visita el <a href="#" target="_blank" rel="noopener" rel="noreferrer">repositorio</a> de este proyecto para
+				conocer el origen de la idea, la API
+				usada y el framework css que da estilos a esta web. ¡Abrazos!</small>
+		</p>
+		<p>
+			<strong>Sígueme en: <a href="https://github.com/OsvaldoZakowicz" target="_blank" rel="noopener"
+					rel="noreferrer">🐙GitHub</a>.</strong>
+		</p>
+	</footer>
+
 	<script type="module" src="js/index.js"></script>
 </body>
 
